@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-main {
-  background: rgba(2,0,26,255);
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
 }
