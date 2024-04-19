@@ -17,7 +17,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-background-color">
         <Navbar />
-        <Theme accentColor="crimson" grayColor="sand" radius="large" scaling="95%">
+        <Theme accentColor="gray" radius="small">
+
         <main className="pt-20 h-screen  flex flex-col items-center justify-between bg-background-color overflow-y-scroll no-scrollbar">
           {children}
           </main>
