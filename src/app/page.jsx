@@ -34,11 +34,10 @@ export default function Home() {
                     <Image className="absolute h-1/2 top-12 scale-x-[1]" src={Detail} width={1000} height={1000} alt="Page Design detail"></Image>
                     
                     <div className="flex flex-col h-full m-5 border border-primary rounded-sm">
-                      <span className="h-3/4 text-xs pl-2 pt-1 text-light-purple-200">About Me</span>
+                      
                       <div className="h-2/4 w-full text-center flex flex-col">
-                        <span className=" text-lg pl-2 text-light-purple-200">Hello there!</span>
-                        <span className="text-xs pl-2 pt-1 text-light-purple-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora voluptatum doloribus quidem cum quae harum. .</span>
-                        <Button variant="outline">Edit profile</Button>
+                        
+                        
                       </div>
                     </div>
                   </div>
