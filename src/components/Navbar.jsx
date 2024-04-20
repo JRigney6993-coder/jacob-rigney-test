@@ -17,16 +17,18 @@ export function Navbar() {
                         <span className="block w-5 h-0.5 bg-gray-700"></span>
                     </button>
                     <a href="#" className="text-neutral-100 text-lg font-medium ml-3">
-                        Temp <span className="text-primary">Nav</span>
+                        Jake's <span className="text-primary">Portfolio</span>
                     </a>
                 </div>
 
                 <div className={`${isOpen ? 'block' : 'hidden'} md:flex w-full md:w-auto`}>
                     <ul className="md:flex md:items-center md:justify-between w-full md:w-auto mt-4 md:mt-0">
-                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-blue-600">Home</a></li>
-                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-blue-600">About</a></li>
-                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-blue-600">Contact</a></li>
-                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-blue-600">Signin</a></li>
+                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-primary hover:text-primary">Home</a></li>
+                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-primary">About</a></li>
+                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-primary">Projects</a></li>
+                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-primary">Schooling</a></li>
+                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-primary">Contact</a></li>
+                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-primary border border-primary px-4 pt-1 pb-2 m-2">Resume</a></li>
                     </ul>
                 </div>
             </div>

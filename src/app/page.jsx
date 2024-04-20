@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Detail from "@/assets/images/design1.png"
-import { Button } from '@radix-ui/themes';
 
 import { BackgroundBeams } from "@/components/ui/background-beams"
 
@@ -29,21 +28,22 @@ export default function Home() {
               <div className="flex w-full h-2/3 justify-center">
                 <div className="flex flex-row gap-4 h-full w-[100rem] sm:w-[80rem] h-full justify-center">
 
-                  <div className="relative invisible md:visible md:w-1/4 h-full border border-primary rounded-sm">
+                  <div className="relative invisible md:visible w-0 md:w-1/4 h-full border border-primary rounded-sm">
                     
-                    <Image className="absolute h-1/2 top-12 scale-x-[1]" src={Detail} width={1000} height={1000} alt="Page Design detail"></Image>
-                    
+                    <Image className="absolute h-1/2 top-12 scale-x-[1]" priority={true} placeholder='blur' src={Detail} width={1000} height={1000} alt="Page Design detail"></Image>
+
                     <div className="flex flex-col h-full m-5 border border-primary rounded-sm">
-                      
-                      <div className="h-2/4 w-full text-center flex flex-col">
-                        
-                        
+                      <span className="h-[55%] p-1 text-sm text-primary font-semibold">私に連絡して</span>
+                      <div className="h-[45%] w-full text-center flex flex-col px-2">
+                        <span className="text-md 2xl:text-2xl text-neutral-800">Contact Me</span>
+                        <span className="text-xs 2xl:text-base text-neutral-800">To reach out directly via email, please click on the button below! This will take you to a dedicated contact form where you can easily send your message.</span>
+                        <button className="text-primary border border-primary p-2 mx-4 my-6">Navigate</button>
                       </div>
                     </div>
                   </div>
 
                   <div className="w-full sm:w-3/5 h-3/5 md:h-[96%] bg-gradient-to-b from-light-purple-200 from-15% to-light-purple-300 to-80% flex justify-center items-center flex-col">
-                  
+
                     <div className="flex flex-row items-center justify-center h-[80%] w-1/2">
                       <div className="p-4 flex flex-col mt-20 md:mt-40">
                         <span className="pl-[2px]">J</span>
@@ -72,10 +72,15 @@ export default function Home() {
                     <div className="pb-12 pt-2">. . . . . . . . . .</div>
                   </div>
 
-                  <div className="relative invisible md:visible md:w-1/4 h-full border border-primary rounded-sm">
-                    <Image className="absolute h-1/2 top-12 scale-x-[-1]" src={Detail} width={1000} height={1000} alt="Page Design detail"></Image>
-                    <div className="h-full m-6 border border-primary rounded-sm">
-                      
+                  <div className="relative invisible md:visible w-0 md:w-1/4 h-full border border-primary rounded-sm">
+                    <Image className="absolute h-1/2 top-12 scale-x-[-1]" priority={true} placeholder='blur' src={Detail} width={1000} height={1000} alt="Page Design detail"></Image>
+                    <div className="flex flex-col h-full m-5 border border-primary rounded-sm">
+                      <span className="h-[55%] p-1 text-sm text-primary font-semibold">私について</span>
+                      <div className="h-[45%] w-full text-center flex flex-col px-2">
+                        <span className="text-md 2xl:text-2xl text-neutral-800">About Me</span>
+                        <span className="text-xs 2xl:text-base text-neutral-800">Click this button to explore my About Me page! Discover more about my background, interests, and professional journey. Don't hesitate, click now and start exploring!</span>
+                        <button className="text-primary border border-primary p-2 mx-4 my-6">Navigate</button>
+                      </div>
                     </div>
                   </div>
 
