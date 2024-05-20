@@ -35,8 +35,8 @@ export default function Home() {
                     <div className="flex flex-col h-full m-5 border border-primary rounded-sm">
                       <span className="h-[55%] p-1 text-sm text-primary font-semibold">私に連絡して</span>
                       <div className="h-[45%] w-full text-center flex flex-col px-2">
-                        <span className="text-md 2xl:text-2xl text-neutral-800">Contact Me</span>
-                        <span className="text-xs 2xl:text-base text-neutral-800">To reach out directly via email, please click on the button below! This will take you to a dedicated contact form where you can easily send your message.</span>
+                        <span className="text-md 2xl:text-lg text-light-purple-200">Contact Me</span>
+                        <span className="text-xs 2xl:text-sm text-light-purple-200">To reach out directly via email, please click on the button below! This will take you to a dedicated contact form where you can easily send your message.</span>
                         <button className="text-primary border border-primary p-2 mx-4 my-6">Navigate</button>
                       </div>
                     </div>
@@ -77,8 +77,8 @@ export default function Home() {
                     <div className="flex flex-col h-full m-5 border border-primary rounded-sm">
                       <span className="h-[55%] p-1 text-sm text-primary font-semibold">私について</span>
                       <div className="h-[45%] w-full text-center flex flex-col px-2">
-                        <span className="text-md 2xl:text-2xl text-neutral-800">About Me</span>
-                        <span className="text-xs 2xl:text-base text-neutral-800">Click this button to explore my About Me page! Discover more about my background, interests, and professional journey. Don't hesitate, click now and start exploring!</span>
+                        <span className="text-md 2xl:text-lg text-light-purple-200">About Me</span>
+                        <span className="text-xs 2xl:text-sm text-light-purple-200">Click this button to explore my About Me page! Discover more about my background, interests, and professional journey. click now and start exploring!</span>
                         <button className="text-primary border border-primary p-2 mx-4 my-6">Navigate</button>
                       </div>
                     </div>
