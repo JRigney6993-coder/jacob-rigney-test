@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Detail from "@/assets/images/design1.png"
+import Pfp from "@/assets/images/me.jpg"
 
 import { BackgroundBeams } from "@/components/ui/background-beams"
 
@@ -29,7 +30,7 @@ export default function Home() {
                 <div className="flex flex-row gap-4 h-full w-[100rem] sm:w-[80rem] h-full justify-center">
 
                   <div className="relative invisible md:visible w-0 md:w-1/4 h-full border border-primary rounded-sm">
-                    
+
                     <Image className="absolute h-1/2 top-12 scale-x-[1]" priority={true} placeholder='blur' src={Detail} width={1000} height={1000} alt="Page Design detail"></Image>
 
                     <div className="flex flex-col h-full m-5 border border-primary rounded-sm">
@@ -91,30 +92,39 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="w-full px-8 md:px-16 py-16 flex flex-col items-center">
+  <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
+    
+    <div className="flex-grow">
+      <div className="flex flex-row w-full mb-4">
+        <span className="text-primary text-2xl">
+          01.
+          <span className="text-light-purple-200 text-3xl pl-2 pr-6">About Me</span>
+        </span>
+        <div className="flex-grow border-t border-neutral-800 mt-4"></div>
       </div>
-      <br />    <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <div className="relative w-[300px] h-[300px] float-left mr-12 mb-4 block">
+        <div className="absolute inset-0 border-2 border-primary rounded-sm transform translate-x-5 translate-y-5"></div>
+        <Image
+          src={Pfp}
+          width={300}
+          height={300}
+          quality={100}
+          alt="Picture of me"
+          className="relative rounded-sm"
+        />
+      </div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, accusantium optio alias laboriosam aliquid fugit. Itaque illo, ullam, veniam soluta necessitatibus totam harum a explicabo eligendi quibusdam consequatur error velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, accusantium optio alias laboriosam aliquid fugit. Itaque illo, ullam, veniam soluta necessitatibus totam harum a explicabo eligendi quibusdam consequatur error velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, accusantium optio alias laboriosam aliquid fugit. Itaque illo, ullam, veniam soluta necessitatibus totam harum a explicabo eligendi quibusdam consequatur error velit!
+      </p>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
 
     </>
 
