@@ -25,8 +25,8 @@ export function Navbar() {
                     <ul className="md:flex md:items-center md:justify-between w-full md:w-auto mt-4 md:mt-0">
                         <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-primary hover:text-primary">Home</a></li>
                         <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-primary">About</a></li>
-                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-primary">Projects</a></li>
-                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-primary">Schooling</a></li>
+                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-primary">Favorite Projects</a></li>
+                        <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-primary">Journey</a></li>
                         <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-neutral-100 hover:text-primary">Contact</a></li>
                         <li className="md:ml-6 mt-3 md:mt-0"><a href="#" className="text-primary border border-primary px-4 pt-1 pb-2 m-2">Resume</a></li>
                     </ul>

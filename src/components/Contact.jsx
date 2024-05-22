@@ -25,6 +25,7 @@ export function Contact() {
       <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
         <div className="flex-grow">
           <div className="flex flex-row w-full mb-4">
+          <div className="flex-grow border-t border-neutral-800 mt-4 mr-6"></div>
             <span className="text-primary text-2xl">
               04.
               <span className="text-light-purple-200 text-3xl pl-2 pr-6">Contact Me</span>

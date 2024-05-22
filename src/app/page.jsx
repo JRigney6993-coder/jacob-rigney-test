@@ -185,90 +185,90 @@ export default function Home() {
                 In terms of experience, I completed an internship with <span className="text-primary">Workbase Learning Alliance (WBLA)</span> and learned industry standards at West-MEC. Additionally, I participated in the <span className="text-primary">Future Business Leaders of America (FBLA)</span> for two years. Currently, I am entering college as a junior, having completed my first two years during high school. I plan to earn my Bachelor's degree at Grand Canyon University (GCU) and later pursue a Master's in Business. My goal is to establish a business that creates programming opportunities for developing countries.
                 <br /><br />
                 Here are some of the skills I’ve acquired on my journey:      </p>
-                <div className='flex flex-row flex-wrap w-full p-12 gap-4'>
+                <div className='flex flex-row flex-wrap w-full p-6 xl:p-12 gap-4'>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Python</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Python</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Lua</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Lua</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>JavaScript</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>JavaScript</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>TypeScript</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>TypeScript</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Java</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Java</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>C#</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>C#</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>SQL</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>SQL</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Node.js</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Node.js</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>React.js</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>React.js</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Next.js</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Next.js</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Vite.js</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Vite.js</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Ejs</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Ejs</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>HTML5</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>HTML5</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Basic Pug</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Basic Pug</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Tailwind</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Tailwind</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Bootstrap</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Bootstrap</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>JQuery</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>JQuery</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Sass/Scss</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Sass/Scss</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>shadcn</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>shadcn</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>radiuxUI</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>radiuxUI</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Electron</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Electron</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Selenium</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Selenium</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Tesseract</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Tesseract</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>MongoDB</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>MongoDB</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>VS Code</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>VS Code</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>MySQL Workbench</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>MySQL Workbench</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Postmate</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>Postmate</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>ChatGPT ←Sensei</div>
+                    <div className='bg-primary rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>ChatGPT ←Sensei</div>
                   </div>
                 </div>
                 
@@ -287,7 +287,7 @@ export default function Home() {
                 <div className="flex-grow border-t border-neutral-800 mt-4"></div>
                 <span className="text-primary text-2xl pl-6 pr-2">
                   02.
-                  <span className="text-light-purple-200 text-3xl pl-2 pr-6">Projects</span>
+                  <span className="text-light-purple-200 text-3xl pl-2 pr-6">Favorite Projects</span>
                 </span>
               </div>
               
@@ -296,19 +296,67 @@ export default function Home() {
         </div>
         </MotionDiv>
 
-        {/* Schooling */}
+        {/* Journey */}
         <MotionDiv>
         <div className="w-full px-8 md:px-16 py-24 flex flex-col items-center">
           <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
-            <div className="flex-grow">
+            <div className="flex-grow w-full">
               <div className="flex flex-row w-full mb-4">
                 <span className="text-primary text-2xl">
                   03.
-                  <span className="text-light-purple-200 text-3xl pl-2 pr-6">Schooling</span>
+                  <span className="text-light-purple-200 text-3xl pl-2 pr-6">Journey</span>
                 </span>
                 <div className="flex-grow border-t border-neutral-800 mt-4"></div>
               </div>
               
+              <div className="w-full flex flex-row relative">
+                <div className="w-1/2 flex flex-col items-end justify-center">
+                <MotionDiv>
+                  <div className='w-42 md:w-96 h-48 outline outline-primary outline-[1px] rounded-xl p-2 mb-48'>
+                    <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
+                      <span className='text-lg sm:text-xl font-bold'>Shadow Ridge Highschool</span>
+                      <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
+                      <span className='text-xs sm:text-[1rem] p-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium minima illum vitae architecto!</span>
+                    </div>
+                  </div>
+                </MotionDiv>
+                <MotionDiv>
+                  <div className='w-42 md:w-96 h-48 outline outline-primary outline-[1px] rounded-xl p-2 mb-48'>
+                    <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
+                      <span className='text-lg sm:text-xl font-bold'>Rio Salado Community College</span>
+                      <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
+                      <span className='text-xs sm:text-[1rem] p-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium minima illum vitae architecto!</span>
+                    </div>
+                  </div>
+</MotionDiv>
+                  
+                </div>
+                <div className="w-1/2 flex flex-col items-start justify-center">
+<MotionDiv>
+                  <div className='w-42 md:w-96 h-48 outline outline-primary outline-[1px] rounded-xl p-2 mt-48 ml-8'>
+                    <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
+                      <span className='text-lg sm:text-xl font-bold'>West-MEC North-East</span>
+                      <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
+                      <span className='text-xs sm:text-[1rem] p-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium minima illum vitae architecto!</span>
+                    </div>
+                  </div>
+</MotionDiv><MotionDiv>
+                  <div className='w-42 md:w-96 h-48 outline outline-primary outline-[1px] rounded-xl p-2 mt-48 ml-8'>
+                    <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
+                      <span className='text-lg sm:text-xl font-bold'>Grand Canyon University</span>
+                      <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
+                      <span className='text-xs sm:text-[1rem] p-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium minima illum vitae architecto!</span>
+                    </div>
+                  </div>
+
+                  </MotionDiv>
+                </div>
+
+                <div className="absolute inset-y-0 left-1/2 w-px bg-primary m-4"></div>
+              </div>
+
+
+
             </div>
           </div>
         </div>
