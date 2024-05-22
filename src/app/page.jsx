@@ -11,7 +11,7 @@ export default function Home() {
       <BackgroundBeams className="z-0" />
 
       <div className="relative w-full h-full">
-        <div className="relative w-[100vw] h-[100vh]">
+        <div className="relative w-[100vw] h-[50vh] sm:h-[100vh]">
 
           <div className="z-10 w-full h-full">
             <div className="flex flex-col justify-between invisible sm:visible md:invisible lg:visible absolute bottom-0 w-[6rem] 2xl:w-[8rem] 3xl:w-[12rem] h-[65vh] bg-four-color-gradient mb-28">
@@ -43,7 +43,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="w-full sm:w-3/5 h-3/5 md:h-[96%] bg-gradient-to-b from-light-purple-200 from-15% to-light-purple-300 to-80% flex justify-center items-center flex-col">
+                  <div className="w-full h-full sm:w-3/5 sm:h-3/5 md:h-[96%] bg-gradient-to-b from-light-purple-200 from-15% to-light-purple-300 to-80% flex justify-center items-center flex-col">
 
                     <div className="flex flex-row items-center justify-center h-[80%] w-1/2">
                       <div className="p-4 flex flex-col mt-20 md:mt-40">
@@ -78,7 +78,7 @@ export default function Home() {
                     <div className="flex flex-col h-full m-5 border border-primary rounded-sm">
                       <span className="h-[55%] p-1 text-sm text-primary font-semibold">私について</span>
                       <div className="h-[45%] w-full text-center flex flex-col px-2">
-                        <span className="text-md 2xl:text-lg text-light-purple-200">About Me</span>
+                        <span className="text-md 2xl:text-lg">About Me</span>
                         <span className="text-xs 2xl:text-sm text-light-purple-200">Click this button to explore my About Me page! Discover more about my background, interests, and professional journey. click now and start exploring!</span>
                         <button className="text-primary border border-primary p-2 mx-4 my-6">Navigate</button>
                       </div>
@@ -88,44 +88,79 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="h-1/3 w-full bg-bg-color"></div>
             </div>
           </div>
         </div>
 
+        {/* About me */}
         <div className="w-full px-8 md:px-16 py-16 flex flex-col items-center">
-  <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
-    
-    <div className="flex-grow">
-      <div className="flex flex-row w-full mb-4">
-        <span className="text-primary text-2xl">
-          01.
-          <span className="text-light-purple-200 text-3xl pl-2 pr-6">About Me</span>
-        </span>
-        <div className="flex-grow border-t border-neutral-800 mt-4"></div>
-      </div>
-      <div className="relative w-[300px] h-[300px] float-left mr-12 mb-4 block">
-        <div className="absolute inset-0 border-2 border-primary rounded-sm transform translate-x-5 translate-y-5"></div>
-        <Image
-          src={Pfp}
-          width={300}
-          height={300}
-          quality={100}
-          alt="Picture of me"
-          className="relative rounded-sm"
-        />
-      </div>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, accusantium optio alias laboriosam aliquid fugit. Itaque illo, ullam, veniam soluta necessitatibus totam harum a explicabo eligendi quibusdam consequatur error velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, accusantium optio alias laboriosam aliquid fugit. Itaque illo, ullam, veniam soluta necessitatibus totam harum a explicabo eligendi quibusdam consequatur error velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, accusantium optio alias laboriosam aliquid fugit. Itaque illo, ullam, veniam soluta necessitatibus totam harum a explicabo eligendi quibusdam consequatur error velit!
-      </p>
-    </div>
-  </div>
-</div>
+          <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
+            <div className="flex-grow">
+              <div className="flex flex-row w-full mb-4">
+                <span className="text-primary text-2xl">
+                  01.
+                  <span className="text-light-purple-200 text-3xl pl-2 pr-6">About Me</span>
+                </span>
+                <div className="flex-grow border-t border-neutral-800 mt-4"></div>
+              </div>
+              <div className="relative w-[300px] h-[300px] sm:float-left mr-0 sm:mr-12 mb-12 sm:mb-4 block">
+                <div className="absolute inset-0 border-2 border-primary rounded-sm transform translate-x-5 translate-y-5"></div>
+                <Image
+                  src={Pfp}
+                  width={300}
+                  height={300}
+                  quality={100}
+                  alt="Picture of me"
+                  className="relative rounded-sm"
+                />
+              </div>
+              <p className="text-md md:text-xl lg:text-3xl ">
+                Hello, my name is Jake! I have always been passionate about creating and analyzing things. My interest in game development began at the age of 12 when I learned Lua. I quickly fell in love with programming and have been expanding my knowledge ever since. Throughout high school, I took various programming electives and attended <span className="text-primary">West-MEC trade school</span> and <span className="text-primary">Rio Salado Community College</span>, where I studied numerous programming languages. Recently, I've developed a keen interest in <span className="text-primary">Artificial Intelligence</span> and <span className="text-primary">Software Development</span>.
+                <br /><br />
+                In terms of experience, I completed an internship with <span className="text-primary">Workbase Learning Alliance (WBLA)</span> and learned industry standards at West-MEC. Additionally, I participated in the <span className="text-primary">Future Business Leaders of America (FBLA)</span> for two years. Currently, I am entering college as a junior, having completed my first two years during high school. I plan to earn my Bachelor's degree at Grand Canyon University (GCU) and later pursue a Master's in Business. My goal is to establish a business that creates programming opportunities for developing countries.
+                <br /><br />
+                Here are the skills I’ve acquired on my journey:      </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Projects */}
+        <div className="w-full px-8 md:px-16 py-24 flex flex-col items-center">
+          <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
+            <div className="flex-grow">
+              <div className="flex flex-row w-full mb-4">
+                
+                <div className="flex-grow border-t border-neutral-800 mt-4"></div>
+                <span className="text-primary text-2xl pl-6 pr-2">
+                  02.
+                  <span className="text-light-purple-200 text-3xl pl-2 pr-6">Projects</span>
+                </span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        {/* Schooling */}
+        <div className="w-full px-8 md:px-16 py-24 flex flex-col items-center">
+          <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
+            <div className="flex-grow">
+              <div className="flex flex-row w-full mb-4">
+                <span className="text-primary text-2xl">
+                  03.
+                  <span className="text-light-purple-200 text-3xl pl-2 pr-6">Schooling</span>
+                </span>
+                <div className="flex-grow border-t border-neutral-800 mt-4"></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
 
 
       </div>
-
-
     </>
 
 
