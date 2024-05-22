@@ -184,7 +184,94 @@ export default function Home() {
                 <br /><br />
                 In terms of experience, I completed an internship with <span className="text-primary">Workbase Learning Alliance (WBLA)</span> and learned industry standards at West-MEC. Additionally, I participated in the <span className="text-primary">Future Business Leaders of America (FBLA)</span> for two years. Currently, I am entering college as a junior, having completed my first two years during high school. I plan to earn my Bachelor's degree at Grand Canyon University (GCU) and later pursue a Master's in Business. My goal is to establish a business that creates programming opportunities for developing countries.
                 <br /><br />
-                Here are the skills I’ve acquired on my journey:      </p>
+                Here are some of the skills I’ve acquired on my journey:      </p>
+                <div className='flex flex-row flex-wrap w-full p-12 gap-4'>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Python</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Lua</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>JavaScript</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>TypeScript</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Java</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>C#</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>SQL</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Node.js</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>React.js</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Next.js</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Vite.js</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Ejs</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>HTML5</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Basic Pug</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Tailwind</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Bootstrap</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>JQuery</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Sass/Scss</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>shadcn</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>radiuxUI</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Electron</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Selenium</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Tesseract</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>MongoDB</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>VS Code</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>MySQL Workbench</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Postmate</div>
+                  </div>
+                  <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>OpenAI</div>
+                  </div>
+                </div>
+                
             </div>
           </div>
         </div>
