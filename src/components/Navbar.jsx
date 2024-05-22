@@ -6,7 +6,7 @@ export function Navbar() {
 
     return (
         <nav className="p-1 w-full" style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
-            <div className="p-4 rounded-xl max-w-7xl mx-auto flex justify-between items-center flex-wrap">
+            <div className="p-4 rounded-sm max-w-7xl mx-auto flex justify-between items-center flex-wrap bg-opacity-50 bg-background-color outline outline-[1px] outline-primary">
                 <div className="flex items-center">
                     <button
                         onClick={() => setIsOpen(!isOpen)}

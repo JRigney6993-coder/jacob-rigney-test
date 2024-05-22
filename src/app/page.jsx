@@ -316,7 +316,8 @@ export default function Home() {
                     <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
                       <span className='text-lg sm:text-xl font-bold'>Shadow Ridge Highschool</span>
                       <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
-                      <span className='text-xs sm:text-[1rem] p-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium minima illum vitae architecto!</span>
+                          <span className='text-xs sm:text-[1rem] p-2'>
+                            At Shadow Ridge High School, I not only became certified in Python but also sharpened my algorithmic skills.</span>
                     </div>
                   </div>
                 </MotionDiv>
@@ -325,7 +326,7 @@ export default function Home() {
                     <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
                       <span className='text-lg sm:text-xl font-bold'>Rio Salado Community College</span>
                       <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
-                      <span className='text-xs sm:text-[1rem] p-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium minima illum vitae architecto!</span>
+                          <span className='text-xs sm:text-[1rem] p-2'>At community college, I enhanced my skills in C# and Java, focusing on object-oriented and multi-platform development.</span>
                     </div>
                   </div>
 </MotionDiv>
@@ -337,7 +338,7 @@ export default function Home() {
                     <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
                       <span className='text-lg sm:text-xl font-bold'>West-MEC North-East</span>
                       <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
-                      <span className='text-xs sm:text-[1rem] p-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium minima illum vitae architecto!</span>
+                          <span className='text-xs sm:text-[1rem] p-2'>At West-MEC, I mastered Node.js, HTML5, Next.js, React, and various front-end tools, elevating my web development expertise.</span>
                     </div>
                   </div>
 </MotionDiv><MotionDiv>
@@ -345,7 +346,7 @@ export default function Home() {
                     <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
                       <span className='text-lg sm:text-xl font-bold'>Grand Canyon University</span>
                       <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
-                      <span className='text-xs sm:text-[1rem] p-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium minima illum vitae architecto!</span>
+                      <span className='text-xs sm:text-[1rem] p-2'>(On going.)</span>
                     </div>
                   </div>
 
