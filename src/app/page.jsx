@@ -1,17 +1,80 @@
+"use client"
+import { useEffect, useRef, useState } from 'react';
 import Image from "next/image";
+import { motion, useAnimation } from 'framer-motion';
+
 import Detail from "@/assets/images/design1.png"
 import Pfp from "@/assets/images/me.jpg"
 
 import { BackgroundBeams } from "@/components/ui/background-beams"
-import { Projects } from "@/components/Projects"
+import { Contact } from "@/components/Contact"
+
+const fadeUpVariant = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0 }
+};
+
+const useInView = (threshold = 0.1) => {
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsIntersecting(entry.isIntersecting);
+      },
+      { threshold }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, [threshold]);
+
+  return [ref, isIntersecting];
+};
+
+const MotionDiv = ({ children }) => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView(0.1);
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [controls, inView]);
+
+  return (
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      exit="hidden"
+      variants={fadeUpVariant}
+      transition={{ duration: 2 }}
+    >
+      {children}
+    </motion.div>
+  );
+};
 
 export default function Home() {
+  
   return (
 
     <>
       <BackgroundBeams className="z-0" />
 
       <div className="relative w-full h-full">
+        
         <div className="relative w-[100vw] h-[50vh] sm:h-[100vh]">
 
           <div className="z-10 w-full h-full">
@@ -79,7 +142,7 @@ export default function Home() {
                     <div className="flex flex-col h-full m-5 border border-primary rounded-sm">
                       <span className="h-[55%] p-1 text-sm text-primary font-semibold">私について</span>
                       <div className="h-[45%] w-full text-center flex flex-col px-2">
-                        <span className="text-md 2xl:text-lg">About Me</span>
+                        <span className="text-md 2xl:text-lg text-light-purple-200">About Me</span>
                         <span className="text-xs 2xl:text-sm text-light-purple-200">Click this button to explore my About Me page! Discover more about my background, interests, and professional journey. click now and start exploring!</span>
                         <button className="text-primary border border-primary p-2 mx-4 my-6">Navigate</button>
                       </div>
@@ -94,6 +157,7 @@ export default function Home() {
         </div>
 
         {/* About me */}
+        <MotionDiv>
         <div className="w-full px-8 md:px-16 py-16 flex flex-col items-center">
           <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
             <div className="flex-grow">
@@ -124,8 +188,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </MotionDiv>
 
         {/* Projects */}
+        <MotionDiv>
         <div className="w-full px-8 md:px-16 py-24 flex flex-col items-center">
           <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
             <div className="flex-grow">
@@ -141,8 +207,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </MotionDiv>
 
         {/* Schooling */}
+        <MotionDiv>
         <div className="w-full px-8 md:px-16 py-24 flex flex-col items-center">
           <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
             <div className="flex-grow">
@@ -157,8 +225,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </MotionDiv>
 
-
+        {/* Contact Me */}
+        <MotionDiv>
+        <Contact/>
+        </MotionDiv>
+ 
 
         
       </div>
