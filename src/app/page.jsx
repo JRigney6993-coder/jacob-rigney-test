@@ -268,7 +268,7 @@ export default function Home() {
                     <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>Postmate</div>
                   </div>
                   <div className='outline outline-primary outline-[1px] rounded-xl p-1'>
-                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>OpenAI</div>
+                    <div className='bg-primary rounded-xl py-2 px-4 text-light-purple-200'>ChatGPT ←Sensei</div>
                   </div>
                 </div>
                 
