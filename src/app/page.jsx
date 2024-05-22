@@ -5,6 +5,7 @@ import { motion, useAnimation } from 'framer-motion';
 
 import Detail from "@/assets/images/design1.png"
 import Pfp from "@/assets/images/me.jpg"
+import placeholder from "@/assets/images/placeholder.png"
 
 import { BackgroundBeams } from "@/components/ui/background-beams"
 import { Contact } from "@/components/Contact"
@@ -281,16 +282,54 @@ export default function Home() {
         <MotionDiv>
         <div className="w-full px-8 md:px-16 py-24 flex flex-col items-center">
           <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
-            <div className="flex-grow">
-              <div className="flex flex-row w-full mb-4">
+            <div className="flex-grow w-full">
+              <div className=" w-full flex flex-row w-full mb-4">
                 
                 <div className="flex-grow border-t border-neutral-800 mt-4"></div>
                 <span className="text-primary text-2xl pl-6 pr-2">
                   02.
-                  <span className="text-light-purple-200 text-3xl pl-2 pr-6">Favorite Projects</span>
+                  <span className="text-light-purple-200 text-3xl pl-2 pr-6">Featured Projects</span>
                 </span>
               </div>
-              
+                <div className='flex flex-row justify-center content-center flex-wrap sm:flex-nowrap'>
+                  <MotionDiv>
+                    <div className='w-42 md:w-96 h-[30rem] outline outline-primary outline-[1px] rounded-xl p-2 mt-48 ml-8'>
+                      <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>
+                        <Image width={'100%'} alt='project' src={placeholder} className='rounded-lg'/>
+                        <div className='flex flex-col p-2'>
+                          <span className='text-lg sm:text-xl font-bold'>Temp project</span>
+                          <span className='text-xs sm:text-sm text-neutral-500'>Date</span>
+                          <span className='text-xs sm:text-[1rem] p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quos qui perspiciatis consectetur aut ipsa animi reiciendis error quasi cum delectus ut aliquam culpa quam, aspernatur illo veniam sit sint?</span>
+                        </div>
+                      </div>
+                    </div>
+                  </MotionDiv>
+                  <MotionDiv>
+                    <div className='w-42 md:w-96 h-[35rem] outline outline-primary outline-[1px] rounded-xl p-2 mt-48 ml-8'>
+                      <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>
+                        <Image width={'100%'} alt='project' src={placeholder} className='rounded-lg' />
+                        <div className='flex flex-col p-2'>
+                          <span className='text-lg sm:text-xl font-bold'>Temp project</span>
+                          <span className='text-xs sm:text-sm text-neutral-500'>Date</span>
+                          <span className='text-xs sm:text-[1rem] p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quos qui perspiciatis consectetur aut ipsa animi reiciendis error quasi cum delectus ut aliquam culpa quam, aspernatur illo veniam sit sint?</span>
+                        </div>
+                      </div>
+                    </div>
+                  </MotionDiv>
+                  <MotionDiv>
+                    <div className='w-42 md:w-96 h-[30rem] outline outline-primary outline-[1px] rounded-xl p-2 mt-48 ml-8'>
+                      <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200'>
+                        <Image width={'100%'} alt='project' src={placeholder} className='rounded-lg' />
+                        <div className='flex flex-col p-2'>
+                          <span className='text-lg sm:text-xl font-bold'>Temp project</span>
+                          <span className='text-xs sm:text-sm text-neutral-500'>Date</span>
+                          <span className='text-xs sm:text-[1rem] p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quos qui perspiciatis consectetur aut ipsa animi reiciendis error quasi cum delectus ut aliquam culpa quam, aspernatur illo veniam sit sint?</span>
+                        </div>
+                      </div>
+                    </div>
+                  </MotionDiv>
+                  
+                </div>
             </div>
           </div>
         </div>
@@ -325,7 +364,7 @@ export default function Home() {
                   <div className='w-42 md:w-96 h-48 outline outline-primary outline-[1px] rounded-xl p-2 mb-48'>
                     <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
                       <span className='text-lg sm:text-xl font-bold'>Rio Salado Community College</span>
-                      <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
+                      <span className='text-xs sm:text-sm text-neutral-500'>2022-2024</span>
                           <span className='text-xs sm:text-[1rem] p-2'>At community college, I enhanced my skills in C# and Java, focusing on object-oriented and multi-platform development.</span>
                     </div>
                   </div>
@@ -337,7 +376,7 @@ export default function Home() {
                   <div className='w-42 md:w-96 h-48 outline outline-primary outline-[1px] rounded-xl p-2 mt-48 ml-8'>
                     <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
                       <span className='text-lg sm:text-xl font-bold'>West-MEC North-East</span>
-                      <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
+                      <span className='text-xs sm:text-sm text-neutral-500'>2022-2024</span>
                           <span className='text-xs sm:text-[1rem] p-2'>At West-MEC, I mastered Node.js, HTML5, Next.js, React, and various front-end tools, elevating my web development expertise.</span>
                     </div>
                   </div>
@@ -345,7 +384,7 @@ export default function Home() {
                   <div className='w-42 md:w-96 h-48 outline outline-primary outline-[1px] rounded-xl p-2 mt-48 ml-8'>
                     <div className=' bg-background-color h-full rounded-xl py-1 px-2 lg:py-2 lg:px-4 text-light-purple-200 flex flex-col'>
                       <span className='text-lg sm:text-xl font-bold'>Grand Canyon University</span>
-                      <span className='text-xs sm:text-sm text-neutral-500'>2020-2024</span>
+                      <span className='text-xs sm:text-sm text-neutral-500'>2024-2028</span>
                       <span className='text-xs sm:text-[1rem] p-2'>(On going.)</span>
                     </div>
                   </div>
