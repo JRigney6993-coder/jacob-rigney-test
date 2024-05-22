@@ -3,6 +3,7 @@ import Detail from "@/assets/images/design1.png"
 import Pfp from "@/assets/images/me.jpg"
 
 import { BackgroundBeams } from "@/components/ui/background-beams"
+import { Projects } from "@/components/Projects"
 
 export default function Home() {
   return (
@@ -159,8 +160,10 @@ export default function Home() {
 
 
 
-
+        
       </div>
+    <div>
+    </div>
     </>
 
 
