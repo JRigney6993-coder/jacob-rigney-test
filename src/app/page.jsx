@@ -9,6 +9,7 @@ import placeholder from "@/assets/images/placeholder.png"
 
 import { BackgroundBeams } from "@/components/ui/background-beams"
 import { Contact } from "@/components/Contact"
+import ScrollHandler from '@/components/ScrollHandler';
 
 const fadeUpVariant = {
   hidden: { opacity: 0, y: 20 },
@@ -103,7 +104,9 @@ export default function Home() {
                       <div className="h-[45%] w-full text-center flex flex-col px-2">
                         <span className="text-md 2xl:text-lg text-light-purple-200">Contact Me</span>
                         <span className="text-xs 2xl:text-sm text-light-purple-200">To reach out directly via email, please click on the button below! This will take you to a dedicated contact form where you can easily send your message.</span>
-                        <button className="text-primary border border-primary p-2 mx-4 my-6">Navigate</button>
+                        <ScrollHandler targetId="#contact-me">
+    <button className="text-primary border border-primary p-2 mx-4 my-6 w-[6rem] xl:w-[10rem]">Navigate</button>
+</ScrollHandler>
                       </div>
                     </div>
                   </div>
@@ -145,7 +148,9 @@ export default function Home() {
                       <div className="h-[45%] w-full text-center flex flex-col px-2">
                         <span className="text-md 2xl:text-lg text-light-purple-200">About Me</span>
                         <span className="text-xs 2xl:text-sm text-light-purple-200">Click this button to explore my About Me page! Discover more about my background, interests, and professional journey. click now and start exploring!</span>
-                        <button className="text-primary border border-primary p-2 mx-4 my-6">Navigate</button>
+                        <ScrollHandler targetId="#about-me">
+                                    <button className="text-primary border border-primary p-2 mx-4 my-6 w-[6rem] xl:w-[10rem]">Navigate</button>
+                                </ScrollHandler>
                       </div>
                     </div>
                   </div>

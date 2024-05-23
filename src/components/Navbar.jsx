@@ -1,44 +1,9 @@
 "use client";
 import React, { useState } from 'react';
+import ScrollHandler from '@/components/ScrollHandler';
 
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-
-    const handleScroll = (e, targetId) => {
-        e.preventDefault();
-        const targetElement = document.querySelector(targetId);
-    
-        if (targetElement) {
-            const observer = new IntersectionObserver((entries) => {
-                const entry = entries[0];
-                if (entry.isIntersecting) {
-                    if (targetId === 'about-me') {
-                        window.scrollBy({
-                            top: -750,
-                            behavior: 'smooth'
-                        });
-                    } else {
-                        window.scrollBy({
-                            top: -200,
-                            behavior: 'smooth'
-                        });
-                    }
-                    
-                    observer.disconnect();
-                }
-            }, { threshold: 1.0 });
-    
-            observer.observe(targetElement);
-    
-            targetElement.scrollIntoView({
-                behavior: 'smooth'
-            });
-        }
-        setIsOpen(false);
-    };
-    
-    
-
 
     return (
         <nav className="p-1 w-full fixed top-0 z-10">
@@ -60,22 +25,32 @@ export function Navbar() {
                 <div className={`${isOpen ? 'block' : 'hidden'} md:flex w-full md:w-auto`}>
                     <ul className="md:flex md:items-center md:justify-between w-full md:w-auto mt-4 md:mt-0">
                         <li className="md:ml-6 mt-3 md:mt-0">
-                            <a href="#home" className="text-primary hover:text-primary" onClick={(e) => handleScroll(e, '#home')}>Home</a>
+                            <ScrollHandler targetId="#home">
+                                <a href="#home" className="text-primary hover:text-primary">Home</a>
+                            </ScrollHandler>
                         </li>
                         <li className="md:ml-6 mt-3 md:mt-0">
-                            <a href="#about-me" className="text-neutral-100 hover:text-primary" onClick={(e) => handleScroll(e, '#about-me')}>About</a>
+                            <ScrollHandler targetId="#about-me">
+                                <a href="#about-me" className="text-neutral-100 hover:text-primary">About</a>
+                            </ScrollHandler>
                         </li>
                         <li className="md:ml-6 mt-3 md:mt-0">
-                            <a href="#featured-projects" className="text-neutral-100 hover:text-primary" onClick={(e) => handleScroll(e, '#featured-projects')}>Featured Projects</a>
+                            <ScrollHandler targetId="#featured-projects">
+                                <a href="#featured-projects" className="text-neutral-100 hover:text-primary">Featured Projects</a>
+                            </ScrollHandler>
                         </li>
                         <li className="md:ml-6 mt-3 md:mt-0">
-                            <a href="#journey" className="text-neutral-100 hover:text-primary" onClick={(e) => handleScroll(e, '#journey')}>Journey</a>
+                            <ScrollHandler targetId="#journey">
+                                <a href="#journey" className="text-neutral-100 hover:text-primary">Journey</a>
+                            </ScrollHandler>
                         </li>
                         <li className="md:ml-6 mt-3 md:mt-0">
-                            <a href="#contact-me" className="text-neutral-100 hover:text-primary" onClick={(e) => handleScroll(e, '#contact-me')}>Contact</a>
+                            <ScrollHandler targetId="#contact-me">
+                                <a href="#contact-me" className="text-neutral-100 hover:text-primary">Contact</a>
+                            </ScrollHandler>
                         </li>
                         <li className="md:ml-6 mt-3 md:mt-0">
-                            <a href="#" className="text-primary border border-primary px-4 pt-1 pb-2 m-2">Resume</a>
+                        <a href="https://www.canva.com/design/DAF5m9wiwCY/42VVKEG7kuNpWdLfILpFWQ/edit?utm_content=DAF5m9wiwCY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className="text-primary border border-primary px-4 pt-1 pb-2 m-2">Resume</a>
                         </li>
                     </ul>
                 </div>
