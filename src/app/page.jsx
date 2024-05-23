@@ -76,7 +76,7 @@ export default function Home() {
 
       <div className="relative w-full h-full">
         
-        <div className="relative w-[100vw] h-[50vh] sm:h-[100vh]">
+        <div id="home" className="relative w-[100vw] h-[50vh] sm:h-[100vh]">
 
           <div className="z-10 w-full h-full">
             <div className="flex flex-col justify-between invisible sm:visible md:invisible lg:visible absolute bottom-0 w-[6rem] 2xl:w-[8rem] 3xl:w-[12rem] h-[65vh] bg-four-color-gradient mb-28">
@@ -159,7 +159,7 @@ export default function Home() {
 
         {/* About me */}
         <MotionDiv>
-        <div className="w-full px-8 md:px-16 py-16 flex flex-col items-center">
+        <div id="about-me" className="w-full px-8 md:px-16 py-16 flex flex-col items-center">
           <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
             <div className="flex-grow">
               <div className="flex flex-row w-full mb-4">
@@ -280,7 +280,7 @@ export default function Home() {
 
         {/* Projects */}
         <MotionDiv>
-        <div className="w-full px-8 md:px-16 py-24 flex flex-col items-center">
+        <div id="featured-projects" className="w-full px-8 md:px-16 py-24 flex flex-col items-center">
           <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
             <div className="flex-grow w-full">
               <div className=" w-full flex flex-row w-full mb-4">
@@ -337,7 +337,7 @@ export default function Home() {
 
         {/* Journey */}
         <MotionDiv>
-        <div className="w-full px-8 md:px-16 py-24 flex flex-col items-center">
+        <div id="journey" className="w-full px-8 md:px-16 py-24 flex flex-col items-center">
           <div className="w-full mb-8 md:w-2/3 flex flex-col md:flex-row">
             <div className="flex-grow w-full">
               <div className="flex flex-row w-full mb-4">
@@ -404,7 +404,8 @@ export default function Home() {
 
         {/* Contact Me */}
         <MotionDiv>
-        <Contact/>
+          <div id="contact-me"><Contact /></div>
+        
         </MotionDiv>
  
 
