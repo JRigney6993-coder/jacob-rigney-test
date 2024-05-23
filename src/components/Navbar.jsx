@@ -14,11 +14,11 @@ export function Navbar() {
                         className="block md:hidden border-none outline-none cursor-pointer"
                     >
                         <span className="block w-5 h-0.5 bg-gray-700 mb-1"></span>
-                        <span className="block w-5 h-0.5 bg-gray-700 mb-1"></span>
-                        <span className="block w-5 h-0.5 bg-gray-700"></span>
+                        <span className="block w-5 h-0.5 bg-gray-700 -1"></span>
+mb                        <span className="block w-5 h-0.5 bg-gray-700"></span>
                     </button>
                     <a href="#home" className="text-neutral-100 text-lg font-medium ml-3">
-                        Jake's <span className="text-primary">Portfolio</span>
+                        Jake&#39;s <span className="text-primary">Portfolio</span>
                     </a>
                 </div>
 
